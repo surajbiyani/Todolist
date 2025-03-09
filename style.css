@@ -1,0 +1,89 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: black;
+    color: cyan;
+}
+.container{
+    background-color: rgba(62, 60, 60, 0.658);
+    display: grid;
+ place-items: center; 
+    height: 400px;
+    width: 280px; 
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+     
+ }
+.input-container{
+    color: whitesmoke;
+    background-color: rgb(109, 106, 106);
+}
+#addtaskBtn{
+    background: black;
+    color: antiquewhite;
+    padding: 5px;
+} */
+ body{
+    background-color: black;
+ }
+
+.container{
+    background-color: rgb(64, 58, 58);
+    color:white;
+    display: inline-block;
+    /* width: 20%;
+    margin: auto; */
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 300px;
+    height: 200px;
+    /* height: 300px; */
+    /* align-content: center;
+    justify-content: center; */
+}
+
+.container h1{
+    align-self:center;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.input-container{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+#addtaskBtn{
+    background-color: blueviolet;
+    color: beige;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+#addtaskBtn:hover{
+    background-color: rgb(67, 2, 128);
+}
+input[type="text"]{
+    width: 70%;
+    height: 30px;
+    border-radius: 6px;
+
+}
+#todoList{
+    list-style: none;
+    padding-left: 70px;
+    padding-top:20px ;
+    font-weight: bold;
+    background-color: rgb(63, 54, 54);
+    
+}
